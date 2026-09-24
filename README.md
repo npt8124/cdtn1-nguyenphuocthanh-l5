@@ -1,16 +1,18 @@
-Kho linh kiện thay thế
+Tự động phân loại yêu cầu bảo hành
 Sinh viên:
 Nguyễn Phước Thành - 2374802013578 - Track AI
 Học phần:
 Chuyên đề Tốt nghiệp 1, HK1 2026-2027
 Luồng nghiệp vụ:
-L5 – Kho linh kiện thay thế
+L10 – Tự động phân loại yêu cầu bảo hành
 ## 1. Mục tiêu
-Hệ thống hỗ trợ theo dõi và quản lý tồn kho linh kiện thay thế theo từng trung tâm. 
-Hệ thống cho phép ghi nhận nhập kho, xuất linh kiện cho phiếu bảo hành, theo dõi số lượng tồn 
-và cảnh báo khi số lượng linh kiện xuống dưới ngưỡng tối thiểu.
+Hệ thống hỗ trợ nhân viên tiếp nhận bảo hành tự động phân loại yêu cầu dựa trên mô tả lỗi do khách hàng cung cấp.
+Hệ thống cho phép nhập mô tả lỗi, tự động đề xuất nhóm sự cố và mức ưu tiên, đồng thời cho phép nhân viên kiểm tra, điều chỉnh và xác nhận kết quả phân loại.
 ## 2. Yêu cầu môi trường
 Python 3.11
+Streamlit
+Pandas
+Scikit-learn
 SQLite
 Biến môi trường: xem .env.example
 ## 3. Hướng dẫn chạy
@@ -24,6 +26,6 @@ Giải thích ngắn mỗi thư mục làm gì.
 ## 5. Kiểm thử
 npm test → hiển thị số test PASS
 ## 6. Trạng thái hiện tại
-☑ Khởi tạo project, smoke test chạy được (buổi 2)
+ Khởi tạo project, smoke test chạy được (buổi 2)
 □ Module tiếp nhận yêu cầu (buổi 8–10)
 □ Module phân công kỹ thuật viên (buổi 10–12)
